@@ -1,0 +1,11 @@
+@-webkit-keyframes dash {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes dash {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+/*# sourceMappingURL=keyframes.css.map */

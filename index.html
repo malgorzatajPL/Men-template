@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+   </head>
+<body>
+    <section id="home">
+      <header>
+        <img src="img/1logo.png" alt="" class="logo">
+        
+      </header>
+      <button class="btn-hero" onclick="scrollWin();">More</button>
+      </section>
+    
+    <section id="about">
+      <div class="about-img">
+        <img src="img/2 about.jpg" alt="about.men">
+      </div>
+      <div class="about-info">
+            <h4>Donec quis efficitur erat.</h4>
+            <span>Nam luctus scelerisque leo, vitae dignissim tortor vulputate eu. Integer porta, nisi et ultricies laoreet, urna nulla gravida ex, auctor molestie arcu risus vulputate metus.<br><br> Morbi auctor feugiat imperdiet. Cras justo felis, posuere at ex id, semper ultricies mi. Pellentesque mauris justo, molestie non feugiat vel, suscipit sed massa. Sed in ex ex. Etiam vel eros quam.</span>
+      </div>
+    </section>
+
+    <section id="work">
+      <figure class="grid">
+        <img src="img/3grid1.jpg" alt="work1grid"/>
+        <figcaption>
+          <h2>Random<span> 1</span></h2>
+      </figcaption>
+      </figure>
+      <figure class="grid">
+        <img src="img/3grid2.jpg" alt="work2grid"/>
+      <figcaption>
+          <h2>Random<span> 2</span></h2>
+      </figcaption>
+      </figure>
+      <figure class="grid">
+        <img src="img/3grid3.jpg" alt="work3grid"/>
+      <figcaption>
+          <h2>Random<span> 3</span></h2>
+      </figcaption>
+      </figure>
+      <figure class="grid">
+        <img src="img/3grid4.jpg" alt="work4grid"/>
+        <figcaption>
+          <h2>Random<span> 4</span></h2>
+        </figcaption>
+      </figure>
+    </section>
+
+    <svg class="intro" viewbox="10 10 240 110">
+        <text text-anchor="start" x="10" y="30" class="text text-stroke" clip-path="url(#text1)">Web Development</text>
+        <text text-anchor="start" x="10" y="50" class="text text-stroke" clip-path="url(#text2)">Design</text>
+        <text text-anchor="start" x="10" y="70" class="text text-stroke" clip-path="url(#text3)">Analysis</text>
+        <text text-anchor="start" x="10" y="30" class="text text-stroke text-stroke-2" clip-path="url(#text1)">Web Development</text>
+        <text text-anchor="start" x="10" y="50" class="text text-stroke text-stroke-2" clip-path="url(#text2)">Design</text>
+        <text text-anchor="start" x="10" y="70" class="text text-stroke text-stroke-2" clip-path="url(#text3)">Analysis</text>
+        
+        <defs>
+          <clipPath id="text1">
+            <text text-anchor="start" x="10" y="30" class="text">Web Development</text>
+          </clipPath>
+          <clipPath id="text2">
+            <text text-anchor="start" x="10" y="50" class="text">Design</text>
+          </clipPath>
+          <clipPath id="text3">
+            <text text-anchor="start" x="10" y="70" class="text">Analysis</text>
+          </clipPath>
+        </defs>
+      </svg>
+
+      <footer>
+        <div class="info-contact">
+            <h4>Contact me</h4>
+          <span>
+              Cras blandit vel nulla at auctor. Morbi non quam vitae risus vestibulum maximus non eleifend leo.<br><br> Maecenas pretium, quam ac maximus fringilla, velit leo efficitur nisl, vitae ullamcorper nunc nisi sit amet sapien. Integer egestas nibh enim, et sagittis turpis maximus et.<br><br></span>
+          <address>
+            <b>Email</b>: random@gmail.com <br><br>
+            <b>Phone</b>: 0800 000 000 
+          </address>
+        </div>
+        <div class="form">
+          <form action="send_script.php" method="POST" class="form-contact">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required>
+            <label for="message">Yours message</label>
+            <input type="message" name="message" id="message" required>
+            <a href="#" class="submit">Contact me</a>
+          </form>
+        </div>
+        <div class="social">
+          <h4>Designed and created by M. Jaskiewicz 2020</h4>
+          <div class="icons">
+            <a href="https://www.facebook.com/nebeleska"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/malgorzatahannajaskiewicz/"><i class="fab fa-instagram"></i></a>
+            <a href="" onclick="showNumber()"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/x-x-059978146/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/malgorzatajPL"><i class="fab fa-github"></i></a>
+            <a href="malgorzatahannajaskiewicz@gmail.com"><i class="far fa-envelope"></i></a>
+          </div>
+        </div>
+      </footer>
+  
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="js/script.js"></script>
+</html>
